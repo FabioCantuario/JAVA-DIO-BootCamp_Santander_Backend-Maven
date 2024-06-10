@@ -2,8 +2,9 @@ package br.com.teste.maven.maven;
 
 import java.time.LocalDateTime;
 
-import org.junit.Test;
+//import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 public class PessoaTeste {
 	
@@ -16,7 +17,7 @@ public class PessoaTeste {
 	@Test
 	void validarLancamento() {
 		int[] primeiro = { 10,20,30,50,40};
-		int[] segundo = {-1,20,30,40,50};
+		int[] segundo = {10,20,30,5,40};
 		
 		Assertions.assertArrayEquals(primeiro,segundo);
 	}
